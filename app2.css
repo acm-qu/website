@@ -1,0 +1,459 @@
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    height: 120px;
+}
+
+.logo-image{
+    height:100px;
+    width:150px;
+    padding-left: 50%;
+}
+
+.navigation {
+    display: flex;
+    gap: 75px;
+}
+
+.navigation a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+.signup-button a{
+    background-color: aliceblue;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+.signup-button a:hover {
+    background-color: #a4c2bc;}
+
+.signup-button{
+    padding-right: 30px;
+}
+
+.main-page{
+    background: linear-gradient(180deg, #134150, #2f3030); /* Gradient background */
+    width: 100%;
+    height: 100vh;
+    padding:20px;
+}
+
+.main-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    display: flex;
+}
+
+
+.text-container h1, .text-container p {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    padding-left: 25%;}
+
+.text-container h1 {
+    font-size: 400%; /* Adjust as needed */
+}
+
+.text-container p {
+    font-size: 200%; /* Adjust as needed */
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:20%;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.second-logo-image{
+    max-width: 70%; /* Ensure the image scales properly */
+    height: 80%;
+}
+
+.column {
+    flex: 1;
+    padding: 20px; /* Optional padding */
+}
+
+/*ABOUT US */
+
+.mission-page{
+    background:#134150; /* Gradient background */
+    width: 100%;
+    height: 100vh;
+    padding:20px;
+}
+
+.mission-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.mission-text-container h1, .mission-text-container p {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    padding-left: 25%;}
+
+.mission-text-container h1 {
+    font-size: 400%; /* Adjust as needed */
+}
+
+.mission-text-container p {
+    font-size: 200%; /* Adjust as needed */
+}
+
+.mission-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:20%;
+}
+
+.mission-image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mission-image{
+    max-width: 70%; /* Ensure the image scales properly */
+    height: 80%;
+}
+
+.column {
+    flex: 1;
+    padding: 20px; /* Optional padding */
+}
+
+/*PAST EVENTS*/
+
+
+.events-page{
+    background:#134150; /* Gradient background */
+    width: 100%;
+    height: auto;
+    padding:20px;
+}
+
+.events-text-container {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 200%;
+}
+
+
+.events-past-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0; 
+  }
+  
+  .styled-button {
+    width: 300px;
+    height: 100px;
+    border: none;
+    background-color: #b4bcba;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 250%;
+    border-radius:0 50px 50px 0;
+    padding-left:0;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .styled-button:hover {
+    transform: translateY(-2px);
+  }
+  
+
+.past-events{
+    display:flex;
+    flex-wrap: wrap;
+    gap:40px;
+    padding: 40px;
+    padding-top:40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.event{
+    width:450px;
+    height:auto;
+    background-color: #ebebeb;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding:50px;
+}
+
+.event p{
+    font-size:30px;
+}
+
+.event img{
+    width:400px;
+    height:400px;
+}
+
+.event .date-image{
+    width:50px;
+    height:50px;
+}
+
+
+.event .date{
+    display:flex;
+    justify-content:center; 
+    align-items:center;
+    text-align:center;
+    gap:30px; 
+    margin-top:20px;
+}
+
+
+
+/*Upcoming Event*/
+
+
+
+.events-upcoming-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px; 
+    padding-left: 0px;
+}
+
+  .upcoming-events{
+    display:flex;
+    flex-wrap: wrap;
+    gap:40px;
+    padding: 40px;
+    padding-top:40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.upcoming-event{
+    width:450px;
+    height:auto;
+    background-color: #ebebeb;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding:50px;
+}
+
+.upcoming-event p{
+    font-size:30px;
+}
+
+.upcoming-event .date-image{
+    width:50px;
+    height:50px;
+}
+
+
+.upcoming-event .date{
+    display:flex;
+    justify-content:center; 
+    align-items:center;
+    text-align:center;
+    gap:30px; 
+    margin-top:20px;
+}
+
+
+
+
+.upcoming-event .time-image{
+    width:50px;
+    height:50px;
+}
+
+
+.upcoming-event .time{
+    display:flex;
+    justify-content:center; 
+    align-items:center;
+    text-align:center;
+    gap:30px; 
+    margin-top:20px;
+}
+
+
+/*Team*/
+.team-page{
+    background:#134150; /* Gradient background */
+    width: 100%;
+    height: auto;
+    padding:20px;
+}
+
+.teams-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0; 
+  }
+
+
+.team-text-container {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 250%;
+    padding:40px;
+    padding-bottom: 60px;
+}
+
+.teams-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap:150px;
+    padding: 40px;
+    padding-top:40px;
+    justify-content: center;
+}
+
+
+.teams-container p{
+    font-size:27px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding:30px;
+}
+
+.team h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.team{
+    border-radius: 50px;
+    background-color: #ebebeb;
+    width:650px;
+    height:750px;
+    display: flex;
+    flex-direction:column; 
+    align-items:center; 
+}
+.teams-container .team-image{
+    width:300px;
+    height:auto;
+    position: relative;
+    top: -60px; 
+
+}
+
+.team-title{
+    position: relative;
+    top: -85px; 
+}
+
+.team-title2{
+    position: relative;
+    top: -100px; 
+}
+
+.p-team{
+    position: relative;
+    top: -90px; 
+}
+
+/*CONTACT*/
+
+
+.contact-page{
+    background:#134150; /* Gradient background */
+    width: 100%;
+    height: auto;
+    padding:20px;
+}
+
+.contact-text-container {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-text-container h1{
+    font-size: 500%;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0; 
+  }
+  
+.contact-desc{
+    font-size: 180%;
+}
+
+.contact-container {
+    display: flex;
+    width: 100%;
+}
+
+.contact{
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    gap:50px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;}
+
+
+.contact-input{
+    width: 80%;
+    padding:10px;
+    margin:20px;
+    font-size: 40px;
+    color:white;
+}
+
+.contacts-box{
+    padding-top:50px;}
+
+#name{
+    background-color: #d3d8d9;
+    color:white;
+}
+
+#email{
+    background-color: #c6d0d0;
+    color:rgb(255, 255, 255);
+
+}
+
+#message{
+    background-color: #9fa3a8;
+    color:white;
+    height:30vh;
+
+}
+
+.contact-image{
+    width:70px;
+    height:auto;
+}
