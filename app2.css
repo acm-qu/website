@@ -456,7 +456,7 @@
 }
 
 
-/*Media Queries dimension 1*/
+/*Media Queries dimension 1 Zoom: 60*/
 @media screen and (max-width: 2058.67px) and (min-width: 1544px) and (max-height: 1118.67px) and (min-height: 839px) {    
     .text-container h1 {
         font-size: 300%; /* Adjust as needed */
@@ -592,7 +592,7 @@
     }
     
 }
-/*Media quiery 2*/
+/*Media quiery 2 Zoom:70*/
 
 @media screen and (max-width: 1800px) and (min-width: 1373px)   and (max-height: 838px) and (min-height: 745.78px){    
     .text-container h1 {
@@ -752,7 +752,7 @@
 
 }
 
-/*Media quiery 2*/
+/*Media quiery 2: Zoom:80*/
 
 @media screen and (max-width: 1600px) and (min-width: 1500px) and (max-height: 750px) and (min-height:650px){
     .text-container h1 {
@@ -911,6 +911,8 @@
     }
 
 }
+
+/*Media quiery 2: Zoom:90*/
 
 @media screen and (max-width: 1500px) and (min-width:1400px) and (min-height:500px) and (max-height:650px){
     .text-container h1 {
@@ -1071,6 +1073,8 @@
     }
 
 }
+
+/*Media quiery 2: Zoom:100*/
 
 @media screen and (max-width: 1400px) and (min-width:1200px) {
     .text-container h1 {
@@ -1233,4 +1237,593 @@
     #message{
         height:160px;
     }
+}
+
+/*  Device: Nest Hub  */
+@media screen and (max-width: 1024px) and (min-width:600px) {
+    .text-container h1 {
+        font-size: 200%; 
+    }
+
+    .text-container p {
+        font-size: 110%;
+    }
+    .second-logo-image{
+        max-width: 50%;
+        height: 60%;
+    }
+    .mission-text-container h1 {
+        font-size: 200%;
+    }
+    .mission-text-container p {
+        font-size: 90%;
+    }
+    .mission-image{
+        max-width: 55%;
+        height: 65%;
+    }
+    .events-text-container {
+        font-size: 90%;
+    }
+    .styled-button {
+        width: 180px;
+        height: 50px;
+        font-size: 130%;
+      }
+
+    .event{
+        width:200px;
+        padding:30px;
+    }
+    .event h1:first-of-type {
+        font-size: 20px;
+    }
+    .event p{
+        font-size:15px;
+    }
+    
+    .event img{
+        width:150px;
+        height:150px;
+    }
+    
+    .event .date-image{
+        width:25px;
+        height:25px;
+    }
+    .event .date{
+        font-size: 6px;
+    }
+
+    .upcoming-event{
+        width:200px;
+    }
+    
+       
+    .upcoming-event h1{
+        font-size:20px;
+    }
+    
+    .upcoming-event p{
+        font-size:13px;
+    }
+    
+    .upcoming-event .date-image{
+        width:22px;
+        height:22px;
+    }
+    
+    
+    .upcoming-event .date{
+        font-size:20px ;
+    }
+    
+    .upcoming-event .time-image{
+        width:22px;
+        height:22px;
+    }
+    .upcoming-event .time{
+        font-size: 20px;
+    }
+
+    .team-text-container {
+        font-size: 80%;
+    }
+    
+    .teams-container p{
+        font-size:11px;
+    }
+    
+    .team h1{
+        font-size: 15px;
+    }
+    
+    .team{
+        width:300px;
+        height:350px;
+        margin-bottom: 10px;
+    }
+
+    .teams-container .team-image{
+        width:100px;
+    }
+    .teams-container{
+        gap:80px;
+    }
+
+    .teams-container .team-image{
+        top: -30px; 
+    }
+    
+    .team-title{
+        position: relative;
+        top: -45px; 
+    }
+    
+    .team-title2{
+        position: relative;
+        top: -60px; 
+    }
+    
+    .p-team{
+        position: relative;
+        top: -90px; 
+    }
+
+    .contact-text-container h1{
+        font-size:200%;
+    }
+
+    .contact-desc{
+        font-size: 90%;
+    } 
+    .contact-container {
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+    .contact{
+        font-size: 10px;
+        gap:40px;}
+
+    .contact-input{
+        width:70%;
+        font-size:18px;
+    }
+    
+    .contacts-box{
+        padding-top:28px;}
+    
+    .contact-image{
+        width:40px;
+    }
+
+    #message{
+        height:160px;
+    }
+}
+
+
+
+/*Medium Devices (Larger Phones/Phablets) */
+@media screen and (max-width: 768px) {
+    .text-container h1 {
+        font-size: 100%; 
+    }
+
+    .text-container p {
+        font-size: 110%;
+    }
+    .second-logo-image{
+        width: 100%;
+        height: 100%;
+    }
+    .mission-text-container h1 {
+        font-size: 100%;
+    }
+    .mission-text-container p {
+        font-size: 50%;
+    }
+    .mission-image{
+        max-width: 100%;
+        height: 60%;
+    }
+    .events-text-container {
+        font-size: 90%;
+    }
+    .styled-button {
+        width: 180px;
+        height: 50px;
+        font-size: 130%;
+      }
+
+    .event{
+        width:200px;
+        padding:30px;
+    }
+    .event h1:first-of-type {
+        font-size: 20px;
+    }
+    .event p{
+        font-size:15px;
+    }
+    
+    .event img{
+        width:150px;
+        height:150px;
+    }
+    
+    .event .date-image{
+        width:25px;
+        height:25px;
+    }
+    .event .date{
+        font-size: 6px;
+    }
+
+    .upcoming-event{
+        width:200px;
+    }
+    
+       
+    .upcoming-event h1{
+        font-size:20px;
+    }
+    
+    .upcoming-event p{
+        font-size:13px;
+    }
+    
+    .upcoming-event .date-image{
+        width:22px;
+        height:22px;
+    }
+    
+    
+    .upcoming-event .date{
+        font-size:20px ;
+    }
+    
+    .upcoming-event .time-image{
+        width:22px;
+        height:22px;
+    }
+    .upcoming-event .time{
+        font-size: 20px;
+    }
+
+    .team-text-container {
+        font-size: 80%;
+    }
+    
+    .teams-container p{
+        font-size:11px;
+    }
+    
+    .team h1{
+        font-size: 15px;
+    }
+    
+    .team{
+        width:300px;
+        height:350px;
+        margin-bottom: 10px;
+    }
+
+    .teams-container .team-image{
+        width:100px;
+    }
+    .teams-container{
+        gap:80px;
+    }
+
+    .teams-container .team-image{
+        top: -30px; 
+    }
+    
+    .team-title{
+        position: relative;
+        top: -45px; 
+    }
+    
+    .team-title2{
+        position: relative;
+        top: -60px; 
+    }
+    
+    .p-team{
+        position: relative;
+        top: -90px; 
+    }
+
+    .contact-text-container h1{
+        font-size:200%;
+    }
+
+    .contact-desc{
+        font-size: 90%;
+    } 
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0; 
+    }
+    
+    .contact{
+        font-size: 10px;
+        gap:40px;}
+
+    .contact-input{
+        width:70%;
+        font-size:18px;
+    }
+    
+    .contacts-box{
+        padding-top:28px;}
+    
+    .contact-image{
+        width:40px;
+    }
+
+    #message{
+        height:160px;
+    }
+
+
+    .logo-image{
+        height:50px;
+        width:50px;
+    }
+    
+    .header{
+        height:70px;
+    }
+    .navigation {
+        gap: 30px;
+    }
+    
+    .navigation a{
+        font-size: 11px;
+    }
+    
+    .signup-button a{
+        font-size: 6px;
+    }
+    .signup-button a:hover {
+        background-color: #a4c2bc;}
+    
+    .signup-button{
+        padding-right: 30px;
+    }
+    
+}
+
+
+
+/*Device: Surface Pro 7*/
+@media screen and (max-width: 912px) and (max-height:1368px) {
+    .header{
+        height:70px;
+    }
+    .navigation {
+        gap: 10px;
+    }
+    
+    .navigation a{
+        font-size: 20px;
+    }
+    
+    .signup-button a{
+        font-size: 6px;
+    }
+    .signup-button a:hover {
+        background-color: #a4c2bc;}
+    
+    .signup-button{
+        padding-right: 30px;
+    }
+
+    
+    .logo-image{
+        height:30px;
+        width:30px;
+    }
+
+}
+
+/*Small Devices (Phones)*/
+@media (max-width: 480px) {
+    .text-container h1 {
+        font-size: 100%; 
+    }
+
+    .text-container p {
+        font-size: 110%;
+    }
+    .second-logo-image{
+        width: 100%;
+        height: 100%;
+    }
+    .mission-text-container h1 {
+        font-size: 100%;
+    }
+    .mission-text-container p {
+        font-size: 50%;
+    }
+    .mission-image{
+        max-width: 100%;
+        height: 60%;
+    }
+    .events-text-container {
+        font-size: 90%;
+    }
+    .styled-button {
+        width: 180px;
+        height: 50px;
+        font-size: 130%;
+      }
+
+    .event{
+        width:200px;
+        padding:30px;
+    }
+    .event h1:first-of-type {
+        font-size: 20px;
+    }
+    .event p{
+        font-size:15px;
+    }
+    
+    .event img{
+        width:150px;
+        height:150px;
+    }
+    
+    .event .date-image{
+        width:25px;
+        height:25px;
+    }
+    .event .date{
+        font-size: 6px;
+    }
+
+    .upcoming-event{
+        width:200px;
+    }
+    
+       
+    .upcoming-event h1{
+        font-size:20px;
+    }
+    
+    .upcoming-event p{
+        font-size:13px;
+    }
+    
+    .upcoming-event .date-image{
+        width:22px;
+        height:22px;
+    }
+    
+    
+    .upcoming-event .date{
+        font-size:20px ;
+    }
+    
+    .upcoming-event .time-image{
+        width:22px;
+        height:22px;
+    }
+    .upcoming-event .time{
+        font-size: 20px;
+    }
+
+    .team-text-container {
+        font-size: 80%;
+    }
+    
+    .teams-container p{
+        font-size:11px;
+    }
+    
+    .team h1{
+        font-size: 15px;
+    }
+    
+    .team{
+        width:300px;
+        height:350px;
+        margin-bottom: 10px;
+    }
+
+    .teams-container .team-image{
+        width:100px;
+    }
+    .teams-container{
+        gap:80px;
+    }
+
+    .teams-container .team-image{
+        top: -30px; 
+    }
+    
+    .team-title{
+        position: relative;
+        top: -45px; 
+    }
+    
+    .team-title2{
+        position: relative;
+        top: -60px; 
+    }
+    
+    .p-team{
+        position: relative;
+        top: -90px; 
+    }
+
+    .contact-text-container h1{
+        font-size:200%;
+    }
+
+    .contact-desc{
+        font-size: 90%;
+    } 
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0; 
+    }
+    
+    .contact{
+        font-size: 10px;
+        gap:40px;}
+
+    .contact-input{
+        width:70%;
+        font-size:18px;
+    }
+    
+    .contacts-box{
+        padding-top:28px;}
+    
+    .contact-image{
+        width:40px;
+    }
+
+    #message{
+        height:160px;
+    }
+
+
+    .logo-image{
+        height:30px;
+        width:30px;
+    }
+    
+    .header{
+        height:70px;
+    }
+    .navigation {
+        gap: 10px;
+    }
+    
+    .navigation a{
+        font-size: 7px;
+    }
+    
+    .signup-button a{
+        font-size: 6px;
+    }
+    .signup-button a:hover {
+        background-color: #a4c2bc;}
+    
+    .signup-button{
+        padding-right: 30px;
+    }
+    
+
+
 }
