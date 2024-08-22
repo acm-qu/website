@@ -233,9 +233,12 @@
 
 
                 <div class="contacts-box column">
-                    <input type="text" id="name" name="name" class="contact-input" placeholder="name">
-                    <input type="email" id="email" name="email" class="contact-input" placeholder="email">
-                    <textarea id="message" name="message" class="contact-input" placeholder="message"></textarea>
+                    <form action="mailto:hr2006354@qu.edu.qa" method="post" enctype="text/plain">
+                        <input type="text" id="name" name="name" class="contact-input" placeholder="name" required>
+                        <input type="email" id="email" name="email" class="contact-input" placeholder="email" required>
+                        <textarea id="message" name="message" class="contact-input" placeholder="message" required></textarea>
+                        <button type="submit" class="Submit">Submit</button>
+                    </form>
                 </div>
 
             </div>

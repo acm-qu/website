@@ -464,6 +464,20 @@
     height:auto;
 }
 
+.Submit {
+    display: block;
+    margin-left: 28%;
+    padding: 10px 20px; /* Adjust padding to vertically center text */
+    text-align: center;
+    color: white;
+    background-color: #7d7f82;
+    border-radius: 10px;
+    height: auto; /* Remove fixed height to allow padding to work */
+    width: 150px;
+    font-size: 20px;
+    width:300px;
+}
+
 
 /*Media Queries dimension 1 Zoom: 60*/
 @media screen and (max-width: 2058.67px) and (min-width: 1544px) and (max-height: 1118.67px) and (min-height: 839px) {    
