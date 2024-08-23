@@ -14,10 +14,9 @@
     <!-- Header Section -->
     <div class="header">
         <div class="logo"> <!-- Placeholder for the logo -->
-            <img src="small-logo.jpeg" alt="Logo" class="logo-image"> <!-- Replace with your logo path -->
+            <a href="#about"><img src="small-logo.jpeg" alt="Logo" class="logo-image"></a> <!-- Replace with your logo path -->
         </div>
         <nav class="navigation">
-            <a href="#about">About</a>
             <a href="#mission">Mission</a>
             <a href="#events">Events</a>
             <a href="#team">Team</a>
@@ -30,7 +29,7 @@
 </header>
 
 <body class="body">
-    <div class="main-page" id="mission">
+    <div class="main-page" id="about">
         <div class="text-container column">
             <h1>ASSOCIATION FOR COMPUTING MACHINERY, QATAR UNIVERSITY CHAPTER</h1>
             <!-- <p>Connecting students with the latest in technology and innovation.</p> -->
@@ -40,10 +39,11 @@
         </div>
        
     </div>
-    <div id="about" class="mission-page">
+    <div id="mission" class="mission-page">
         <div class="mission-text-container column">
-            <h1>ABOUT US</h1>
-            <p>The Qatar University ACM CHAPTER is a student-led organization dedicated to advancing computer science and technology education. Our mission is to foster a vibrant community of students passionate about technology. We organize a wide range of events, including workshops, seminars, and hackathons, aimed at providing hands-on experience and networking opportunities for our members.</p>
+            <h1>Mision</h1>
+            <p>
+                The Qatar University ACM Chapter is a student-led group focused on advancing computer science and technology. We host workshops, seminars, and hackathons to offer hands-on experience and networking for students passionate about technology.</p>
         </div>
         <div class="mission-image-container column">
             <img src="img.png" alt="Logo" class="mission-image">
@@ -120,6 +120,7 @@
                 <div class="upcoming-event">
                     <h1 class="title">Hello world!</h1>
                     <p class="describe">Welcome to CSE</p>
+                    <a href="https://www.google.com" class="register-button"><img src="contact4.png" alt="Link" class="contact-image" style="margin-top: 10px;"></a>
                     <div class="date">
                         <img src="date.png" alt="Date" class="date-image">
                         <h1 class="date-text">9 Sept 2024</h1>
@@ -154,18 +155,18 @@
                     <div class="team-image">
                         <img src="team.png" alt="Team" class="team-image">
                     </div>
-                    <h1 class="team-title">SARA ALI</h1>
-                    <h1 class="team-title2">HEAD</h1>
-                <p class="p-team">Sarah is a junior computer engineering student with a strong interest in artificial intelligence and machine learning. As the vice president, she works closely with the president to plan and execute the chapter's initiatives.</p>
+                    <h1 class="team-title">Muhsen Khan</h1>
+                    <h1 class="team-title2">Head</h1>
+                <p class="p-team">Senior CE student with a passion for innovation through ML</p>
                 </div>
 
                 <div class="team">
                     <div class="team-image">
                         <img src="team.png" alt="Team" class="team-image">
                     </div>
-                    <h1 class="team-title">SARA ALI</h1>
-                    <h1 class="team-title2">HEAD</h1>
-                <p class="p-team">Sarah is a junior computer engineering student with a strong interest in artificial intelligence and machine learning. As the vice president, she works closely with the president to plan and execute the chapter's initiatives.</p>
+                    <h1 class="team-title">Anas Rustom</h1>
+                    <h1 class="team-title2">Vice</h1>
+                <p class="p-team">CS sophomore working on small, cool and xyz</p>
                 </div>
 
                 <div class="team">
@@ -233,7 +234,7 @@
 
 
                 <div class="contacts-box column">
-                    <form action="mailto:hr2006354@qu.edu.qa" method="post" enctype="text/plain">
+                    <form action="https://formspree.io/f/mgvwpkga" onsubmit="this.submit(); this.reset(); return false;"method="POST">
                         <input type="text" id="name" name="name" class="contact-input" placeholder="name" required>
                         <input type="email" id="email" name="email" class="contact-input" placeholder="email" required>
                         <textarea id="message" name="message" class="contact-input" placeholder="message" required></textarea>
