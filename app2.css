@@ -88,8 +88,8 @@
     justify-content: center;
 }
 .second-logo-image{
-    max-width:65%; /* Ensure the image scales properly */
-    height: 75%;
+    max-width:80%; /* Ensure the image scales properly */
+    height: 90%;
 }
 
 .column {
@@ -488,10 +488,7 @@
     .text-container p {
         font-size: 150%; /* Adjust as needed */
     }
-    .second-logo-image{
-        max-width: 60%; /* Ensure the image scales properly */
-        height: 70%;
-    }
+
     .mission-text-container h1 {
         font-size: 350%; /* Adjust as needed */
     }
@@ -631,10 +628,7 @@
     .text-container p {
         font-size: 130%; /* Adjust as needed */
     }
-    .second-logo-image{
-        max-width: 50%; /* Ensure the image scales properly */
-        height: 60%;
-    }
+
     .mission-text-container h1 {
         font-size: 300%; /* Adjust as needed */
     }
@@ -794,10 +788,7 @@
     .text-container p {
         font-size: 120%; /* Adjust as needed */
     }
-    .second-logo-image{
-        max-width: 50%; /* Ensure the image scales properly */
-        height: 60%;
-    }
+
     .mission-text-container h1 {
         font-size: 300%; /* Adjust as needed */
     }
@@ -957,10 +948,7 @@
     .text-container p {
         font-size: 130%;
     }
-    .second-logo-image{
-        max-width: 50%;
-        height: 60%;
-    }
+
     .mission-text-container h1 {
         font-size: 250%;
     }
@@ -1120,10 +1108,7 @@
     .text-container p {
         font-size: 110%;
     }
-    .second-logo-image{
-        max-width: 50%;
-        height: 60%;
-    }
+
     .mission-text-container h1 {
         font-size: 200%;
     }
@@ -1286,10 +1271,7 @@
     .text-container p {
         font-size: 110%;
     }
-    .second-logo-image{
-        max-width: 50%;
-        height: 60%;
-    }
+
     .mission-text-container h1 {
         font-size: 200%;
     }
