@@ -479,6 +479,27 @@
   max-width: fit-content;
 }
 
+/*GALLERY*/
+
+.galleryPage{
+    background:#134150; /* Gradient background */
+    width: 100%;
+    height: auto;
+    padding:20px;
+}
+
+.gallery-text-container {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.gallery-text-container h1{
+    font-size: 500%;
+}
+
+.gallery-desc{
+    font-size: 180%;
+}
 
 
 /*Media Queries dimension 1 Zoom: 60*/
